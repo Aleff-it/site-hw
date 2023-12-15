@@ -64,3 +64,7 @@ body {
 .container--imagem {
     margin: 1em 0 2em 0;
 }
+
+.container--caixa {
+    margin: 06em;
+}
