@@ -27,6 +27,8 @@ body {
     background-image: url('acets/Background.png');
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -67,4 +69,33 @@ body {
 
 .container--caixa {
     margin: 0 6em;
+}
+
+.seundario--imagem {
+    width: 80%;
+}
+
+.secudario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao--titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao--texto {
+    color: var(--cinza-secundario);
+}
+
+.secudario--botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container--descricao {
+    padding: 2em;
 }
